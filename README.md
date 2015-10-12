@@ -10,7 +10,7 @@ Firefox 38+
 
 ##Zbudowanie ze źródeł
 
-Aby wygenerować plik rozszerzenia przeglądarki Firefox (`.xpi`) ze źródeł potrzebna jest instalacja {jpm-install}[jpm].
+Aby wygenerować plik rozszerzenia przeglądarki Firefox (`.xpi`) ze źródeł potrzebna jest instalacja jpm.
 
  $ npm install jpm -g
 
@@ -23,4 +23,3 @@ Spowoduje to utworzenie pliku `.xpi` w katalogu dodatku. Możesz go po prostu pr
 ##Licensja
 
 GPL v2
-Zobacz plik {license}[LICENSE] dla szczegółów.
