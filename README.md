@@ -20,6 +20,12 @@ Następnie w katalogu dodatku wykonaj polecenie `jpm xpi`:
 
 Spowoduje to utworzenie pliku `.xpi` w katalogu dodatku. Możesz go po prostu przeciągnąć i upuścić w oknie przeglądarki Firefox, co uruchomi proces instalacji dodatku.
 
+##Ostrzeżenia
+PAMIĘTAJ! Zawsze zweryfikuj poprawność wypełnionego automaczynie zlecenia.
+Zauważ, że dodatek wypełnia pole wagi paczki domyślną wartością 5kg.
+
+UWAGA! Autor pluginu nie odpowiada za jego nieprawidłowe funkcjonowanie ani za jakiekolwiek szkody wyrządzone jego błędnym działaniem lub niewłaściwym użyciem.
+
 ##Licensja
 
 GPL v2
