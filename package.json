@@ -1,0 +1,14 @@
+{
+  "title": "Allegro mail -> paczka DPD (beta)",
+  "name": "allegro_mail2dpd_package",
+  "version": "0.1.0-beta",
+  "description": "Utwórz zlecenie paczki DPD na podstawie powiadomień mailowych od Allegro.",
+  "main": "index.js",
+  "author": "Niezbędnik Sprzedawcy",
+  "url": "http://niezbedniksprzedawcy.pl/",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "GPL v2"
+}
