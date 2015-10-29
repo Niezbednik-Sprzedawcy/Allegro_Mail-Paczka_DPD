@@ -56,7 +56,7 @@ function handleClick(state) {
             var address = get_regex_results(content, /\n([^<]+(?:\<br>))?([^<]+)<br>([^<]+)<br>\n(\d\d-\d\d\d)([^<]+)<br>/g);
             if (address.length > 0) {
                 address[0][0] = address[0][0].replace("<br>","");
-                var phone_number = get_regex_results(content, /Telefon <span>\n([^<]+)<\/span>/g);
+                var phone_number = get_regex_results(content, /Telefon <span>\n(?:<a[^>]+>)?([^<]+)(?:<\/a>)? <\/span>/g);
                 if (content.indexOf('<b>podstawowy widok HTML</b>') > -1) {
                     var email = get_regex_results(content, /Adres zwrotny\: ([^<]+)/gi);
                 } else {
