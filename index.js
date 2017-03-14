@@ -82,7 +82,7 @@ function handleClick(state) {
             window.alert('Na stronie znaleziono kilka wiadomości z adresami wysyłkowymi.\nZlecenie zostanie wygenerowane z pierwszego adresu.');
         }
         tabs.open({
-            url: "https://webklient.dpd.com.pl/packages.do",
+            url: "https://online.dpd.com.pl/packages.do",
             onOpen: function onOpen(tab) {
 
             },
@@ -100,7 +100,7 @@ function handleClick(state) {
                 }
             },
             onLoad: function onLoad(tab) {
-                if(tab.url.indexOf("webClient.fwd") > -1) {
+                if(tab.url.indexOf("webClient.go") > -1) {
                     if (tab.opened == 2) {
                         var worker = tab.attach({
                             contentScriptFile: [self.data.url("jquery.min.js"), self.data.url("form_filler.js")],
