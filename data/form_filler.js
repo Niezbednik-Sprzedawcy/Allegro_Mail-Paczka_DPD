@@ -8,7 +8,7 @@ $("#postCodeSingle").val(address[3]).change();
 $("#addressCity").val(address[4]);
 
 
-$("#contents").val(self.options.contents[0][0]).change();
+$("#textArea").val(self.options.contents[0][0].toLowerCase()).change();
 //domyślna waga paczki - 5kg
 $("#pdl\\[0\\]\\.weight").val('5').change();
 if (self.options.payment) {
