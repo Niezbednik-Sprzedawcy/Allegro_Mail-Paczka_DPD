@@ -22,7 +22,7 @@ Spowoduje to utworzenie pliku `.xpi` w katalogu dodatku. Możesz go po prostu pr
 
 ##Ostrzeżenia
 PAMIĘTAJ! Zawsze zweryfikuj poprawność wypełnionego automaczynie zlecenia.
-Zauważ, że dodatek wypełnia pole wagi paczki domyślną wartością 5kg.
+Zauważ, że dodatek wypełnia pole wagi paczki domyślną wartością 2kg.
 
 UWAGA! Autor pluginu nie odpowiada za jego nieprawidłowe funkcjonowanie ani za jakiekolwiek szkody wyrządzone jego błędnym działaniem lub niewłaściwym użyciem.
 
